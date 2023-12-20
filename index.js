@@ -3,7 +3,7 @@ function callSession(){
     let password = 'Password215!';
     console.log('fdgds');
     let promise = new Promise((resolve , reject) => {
-        let uri = 'https://exterprisellcdemo4.service-now.com//api/now/table/sys_user/0beaba15877d7110721165773cbb358b';
+        let uri = 'https://exterprisellcdemo4.service-now.com/sn_devstudio_/v1/get_publish_info';
         
 
         let encoded = window.btoa(username+password);
